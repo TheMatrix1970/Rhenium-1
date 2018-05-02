@@ -195,9 +195,9 @@ Click "File Save"
 ***step 4***
 * Check the status of your masternode within the VPS by using the command below:
 
-`./Rhenium-cli masternode status`
+`systemctl status Rhenium.service`
 
-*You should see ***status 4***
+*You should see ***active (running)***
 
 If you do, congratulations! You have now setup a masternode. If you do not, please contact me or any other support.  
 ***
